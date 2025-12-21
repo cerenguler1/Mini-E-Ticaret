@@ -1,6 +1,6 @@
 # 🛍️ Mini Shop - E-Ticaret Projesi
 
-🌐 **[Canlı Siteyi Görüntüle](https://cerenguler1.github.io/Mini-E-Ticaret/)**
+🌐 **[Canlı Siteyi Görüntüle] (https://cerenguler1.github.io/Mini-E-Ticaret/)**
 
 Mini Shop, modern e-ticaret standartlarına uygun olarak HTML5, CSS3 ve Modern JavaScript  teknolojileriyle geliştirilmiş, API tabanlı dinamik bir alışveriş simülasyonudur.
 
