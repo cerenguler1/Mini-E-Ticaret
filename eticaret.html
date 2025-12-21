@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Shop | Modern E-Ticaret</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="eticaret.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Mini<span>Shop</span>.</div>
+        <div class="shopping-icon" onclick="toggleCart()">
+            <i class="fa-solid fa-shopping-bag"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="title">Öne Çıkan Ürünler</h2>
+        <div id="product-list" class="product-grid">
+            <div class="loading">Ürünler Yükleniyor...</div>
+        </div>
+    </div>
+
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Sepetim</h3>
+            <span class="close-btn" onclick="toggleCart()">&times;</span>
+        </div>
+        
+        <div class="cart-items" id="cart-items">
+            <p class="empty-msg">Sepetin şu an boş.</p>
+        </div>
+
+        <div class="cart-footer">
+            <div class="total">
+                <span>Toplam:</span>
+                <span id="total-price">0.00 ₺</span>
+            </div>
+            <button class="checkout-btn">Satın Al</button>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay" onclick="toggleCart()"></div>
+
+    <script src="eticaret.js"></script>
+</body>
+</html>
